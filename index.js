@@ -6,7 +6,7 @@ return driverName.toLowerCase() === name.toLowerCase();
 
 function fuzzyMatch(list, nickName){
  return list.filter(function (driverName) {
-return driverName.slice() === name.toLowerCase();
+return driverName.slice(0, driverName.length) === name.toLowerCase();
 });
 }
 

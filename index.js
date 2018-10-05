@@ -11,6 +11,8 @@ return driverName.slice(0, nameLength) === nickName;
 });
 }
 
-function matchName(drivers){
-  
+function matchName(list, name){
+return list.filter(function (driverName) {
+return driverName.toLowerCase() === name.toLowerCase();
+});
 }

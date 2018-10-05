@@ -13,6 +13,6 @@ return driverName.slice(0, nameLength) === nickName;
 
 function matchName(list, name){
 return list.filter(function (driver) {
-return driver.toLowerCase() === name.toLowerCase();
+return driver.name.toLowerCase() === name.toLowerCase();
 });
 }

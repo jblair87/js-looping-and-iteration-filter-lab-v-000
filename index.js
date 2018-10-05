@@ -4,7 +4,7 @@ return driverName.toLowerCase() === name.toLowerCase();
 });
 }
 
-function fuzzyMatch(list, nickname){
+function fuzzyMatch(list, nickName){
  return list.filter(function (driverName) {
 return driverName.toLowerCase() === name.toLowerCase();
 });
